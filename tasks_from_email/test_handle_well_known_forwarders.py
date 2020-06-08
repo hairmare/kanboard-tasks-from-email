@@ -1,7 +1,7 @@
 import pytest
 from freezegun import freeze_time
 
-from tasks_from_email import handle_well_known_forwarders
+from tasks_from_email.main import handle_well_known_forwarders
 
 _EMAIL_FROM_FORWARDER = """
 From: Forwarder <forwarder@example.org>

@@ -22,7 +22,7 @@ Description of the procedure:
 1. Install python 3.6 and pip
 2. Install kanboard using pip
 3. Copy the files the destination you want to run the script
-4. Adjust the settings in [tasks_from_email_config.py](https://github.com/radiorabe/kanboard-tasks-from-email/blob/master/src/tasks_from_email_config.py)
+4. Adjust the settings in [tasks_from_email_config.py](https://github.com/radiorabe/kanboard-tasks-from-email/blob/master/tasks_from_email/tasks_from_email_config.py)
 
 TODO: more detailed instructions
 
@@ -36,7 +36,7 @@ TODO: re-organize code
 
 ### Testing
 
-This projects uses [pytest](https://pytest.org). The tests are in the main `src/` directory.
+This projects uses [pytest](https://pytest.org). The tests are in the main `tasks_from_email/` directory.
 
 You need to install some test tooling using `pip`:
 

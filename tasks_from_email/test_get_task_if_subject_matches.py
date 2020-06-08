@@ -1,6 +1,6 @@
 import pytest
 
-from tasks_from_email import get_task_if_subject_matches
+from tasks_from_email.main import get_task_if_subject_matches
 
 
 class TestGetTaskIfSubjectMatches:

@@ -1,6 +1,6 @@
 import pytest
 
-from tasks_from_email import reopen_and_update
+from tasks_from_email.main import reopen_and_update
 
 
 class TestReopenAndUpdate:

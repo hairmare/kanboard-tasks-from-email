@@ -1,7 +1,7 @@
 import pytest
 from freezegun import freeze_time
 
-from tasks_from_email import convert_to_kb_date
+from tasks_from_email.main import convert_to_kb_date
 
 
 class TestConvertToKbDate:

@@ -1,6 +1,6 @@
 import pytest
 
-from tasks_from_email import create_user_for_sender
+from tasks_from_email.main import create_user_for_sender
 
 
 class TestCreateUserForSender:

@@ -2,7 +2,7 @@ import pytest
 
 import imaplib
 
-from tasks_from_email import imap_connect, imap_close, imap_search_unseen
+from tasks_from_email.main import imap_connect, imap_close, imap_search_unseen
 
 class TestImapFunctions:
     def test_imap_connect(self, mocker):

@@ -3,7 +3,7 @@ import pytest
 
 from email import header
 
-from tasks_from_email import walk_message_parts
+from tasks_from_email.main import walk_message_parts
 
 
 class TestWalkMessageParts:
